@@ -1,0 +1,14 @@
+.Resume_button{
+    top: 40%;
+    right: 30%;
+    left: 45%;
+    position: absolute;
+}
+@media screen and (max-width:1040px) {
+    .Resume_button{
+        top: 40%;
+        right: 30%;
+        left: 40%;
+        position: absolute;
+    }       
+}
