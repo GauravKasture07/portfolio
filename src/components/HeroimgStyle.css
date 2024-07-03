@@ -4,7 +4,7 @@
     position: relative;
 }
 .into_img{
-    width: 30%;
+    width: 100%;
     height: 100%;
     background-size: cover;
     background-position:center ;
@@ -18,7 +18,7 @@
     top: 0;
     left: 0;
     background-color: black;
-    opacity: 0.3 ;
+    opacity: 0.7 ;
 }
 .hero{
     height:100%;
@@ -46,13 +46,7 @@
     margin: 1rem 0.4rem;
 }
 @media screen and (max-width:640px) {
-    .into_img{
-        width: 40%;
-        height: 100%;
-        background-size: cover;
-        background-position:center ;
-        object-fit: cover;
-    }
+
     .hero .content h1{
         font-size: 3rem;
         }

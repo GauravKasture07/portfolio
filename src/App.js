@@ -9,15 +9,14 @@ import Resume from "./routes/Resume";
 
 function App() {
   return (
-    <>
     <Routes>
-      <Route path="/" element={<Home1/>}/>
+      <Route exact path="/" element={<Home1/>}/>
       <Route path="/project" element={<Project/>}/>
       <Route path="/resume" element={<Resume/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/contact" element={<Contact/>}/>
     </Routes>
-    </>
+
   );
 }
 

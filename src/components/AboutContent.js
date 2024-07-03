@@ -1,7 +1,7 @@
 import "./AboutCountentStyles.css"
 import {Link} from "react-router-dom"
 import React from 'react'
-import React1 from "../assets/portfolio_bg.jpg"
+import React1 from "../assets/self_photo.jpeg"
 import React2 from "../assets/portfolio_bg1.jpg"
 const AboutContent = () => {
   return (

@@ -1,6 +1,6 @@
 import "./HeroimgStyle.css"
 import React from 'react'
-import IntroImg from "../assets/self_photo.jpeg"
+import IntroImg from "../assets/portfolio_bg.jpg"
 import { Link } from "react-router-dom"
 const Heroimag = () => {
   return (
@@ -13,7 +13,7 @@ const Heroimag = () => {
             <h1>Computer Engineering Student</h1>
             <div>
                 <Link to="/project" className="btn">Project</Link>
-                <Link to="/contact" className="btn-light">Contact</Link>
+                <a href={require("../assets/Gaurav_Kasture_Resume.pdf")} className="btn-light" target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
         </div>
     </div>

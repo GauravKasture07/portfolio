@@ -8,11 +8,10 @@ const Footer = () => {
         <div className="footer-container">
             <div className="left">
                 <div className="location">
-                    <FaHome size={20} style={{color:"#fff",marginRight:"2rem"}}/>
+                    <h4><FaHome size={20} style={{color:"#fff",marginRight:"2rem"}}/></h4>
                     <p>
                     plot 156 ashwamedh nagar near R.T.O office, Nashik
                     </p>
-                            
                 </div>
                 <div className="phone">
                 <h4><FaPhone size={20} style={{color:"#fff",marginRight:"2rem"}}/>

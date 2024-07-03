@@ -15,10 +15,17 @@ const Navbar = () => {
     }
   };
   window.addEventListener("scroll",changeColor);
+  const h1Styles = {
+    fontFamily: 'YourDesignerFont', // Replace 'YourDesignerFont' with the desired font-family
+    letterSpacing: '5px', // Adjust the letter-spacing to your preference
+    textTransform: 'uppercase', // Convert text to uppercase for a consistent look
+    whiteSpace: 'nowrap', // Prevent text from wrapping to the next line
+    // Add any additional styles as needed
+  };
   return (
     <div className={color ? "header header-bg" : "header"}>
         <Link to="/">
-            <h1>Portfolio </h1>
+            <h1 style={h1Styles}>Gaurav</h1>
         </Link>
     <ul className={click ? "nav-menu active" : "nav-menu"}>
       <li><Link to="/">Home</Link></li>
