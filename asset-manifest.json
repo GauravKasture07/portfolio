@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.64eed9b2.css",
-    "main.js": "/portfolio/static/js/main.476bd053.js",
+    "main.css": "/portfolio/static/css/main.f9142c28.css",
+    "main.js": "/portfolio/static/js/main.15585ccb.js",
+    "static/media/Gaurav_Kasture_Resume.pdf": "/portfolio/static/media/Gaurav_Kasture_Resume.b185584189117be38436.pdf",
     "static/media/portfolio_bg.jpg": "/portfolio/static/media/portfolio_bg.1104065e68d6a9c5482d.jpg",
     "static/media/self_photo.jpeg": "/portfolio/static/media/self_photo.d3e35e8241071d737fc3.jpeg",
+    "static/media/project2.jpeg": "/portfolio/static/media/project2.2aac7bf93959ca5f03bd.jpeg",
     "static/media/portfolio_bg1.jpg": "/portfolio/static/media/portfolio_bg1.64298502efc7d1611e13.jpg",
-    "static/media/project1.jpg": "/portfolio/static/media/project1.538fd25817a1b784ec81.jpg",
+    "static/media/AppIcon.png": "/portfolio/static/media/AppIcon.496a6345fbcb68d19c9f.png",
     "index.html": "/portfolio/index.html",
-    "main.64eed9b2.css.map": "/portfolio/static/css/main.64eed9b2.css.map",
-    "main.476bd053.js.map": "/portfolio/static/js/main.476bd053.js.map"
+    "main.f9142c28.css.map": "/portfolio/static/css/main.f9142c28.css.map",
+    "main.15585ccb.js.map": "/portfolio/static/js/main.15585ccb.js.map"
   },
   "entrypoints": [
-    "static/css/main.64eed9b2.css",
-    "static/js/main.476bd053.js"
+    "static/css/main.f9142c28.css",
+    "static/js/main.15585ccb.js"
   ]
 }
